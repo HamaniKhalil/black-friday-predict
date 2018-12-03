@@ -1,2 +1,8 @@
 # Mac os
 .DS_Store
+
+# Compressed
+*.zip
+*.tar.*
+*.gz
+*.7z
