@@ -1,0 +1,4 @@
+Graph generation with matplot scatter :
+
+https://matplotlib.org/gallery/shapes_and_collections/scatter.html
+https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html
