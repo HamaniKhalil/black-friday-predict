@@ -33,7 +33,7 @@ def show_performances(clf, X_test, y_test):
     minutes = int((time_consumption - int(hours * 3600)) / 60)
     seconds = time_consumption - minutes * 60 - hours * 360
 
-    print("Prédictions faites en  : : %02d:%02d:%02d" % (hours, minutes, seconds))
+    print("Prédictions faites en  : %02dh%02dm%02ds" % (hours, minutes, seconds))
 
     accuracy = accuracy_score(y_test, predictions)
     print ("accuracy: {:.2%}.\n".format(accuracy))
