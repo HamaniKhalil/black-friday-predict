@@ -18,7 +18,7 @@ def train_model(clf, X_train, y_train):
     minutes = int((time_consumption - int(hours * 3600)) / 60)
     seconds = time_consumption - minutes * 60 - hours * 360
 
-    print("Model entrainé en : %02d:%02d:%02d" % (hours, minutes, seconds))
+    print("Model entrainé en : %02dh%02dm%02ds" % (hours, minutes, seconds))
 
     return clf
 
